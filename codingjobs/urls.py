@@ -18,6 +18,7 @@ from django.urls import path
 from django.contrib.auth.views import LoginView, LogoutView
 
 from apps.core.views import index, signup
+from apps.job.views import job_detail
 
 urlpatterns = [
     path('', index, name='index'),
@@ -25,4 +26,6 @@ urlpatterns = [
     path('login/', LoginView.as_view(template_name='core/login.html'), name='login'),
     path('logout/', LogoutView.as_view(), name='logout'),
     path('admin/', admin.site.urls),
+    
+    path('job/<int:job_id>', job_detail, name='job_detail'),
 ]

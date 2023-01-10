@@ -1,5 +1,5 @@
 db.sqlite3
-apps/core/__pycache__
-apps/core/migrations/
+apps/*/__pycache__
+apps/*/migrations/
 codingjobs/__pycache__
 venv
