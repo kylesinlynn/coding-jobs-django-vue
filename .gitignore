@@ -1,0 +1,5 @@
+db.sqlite3
+apps/core/__pycache__
+apps/core/migrations/
+codingjobs/__pycache__
+venv
