@@ -18,6 +18,7 @@
 
             <div class='navbar-menu'>
                 <div class='navbar-end'>
+                    <a href='{% url 'dashboard' %}' class='navbar-item'>Dashboard</a>
                     <div class='navbar-item'>
                         {% if request.user.is_authenticated %}
                             <a href='{% url 'logout' %}' class='button is-danger'>Log out</a>
