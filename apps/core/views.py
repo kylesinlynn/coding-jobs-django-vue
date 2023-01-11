@@ -22,7 +22,7 @@ def signup(request):
                 userprofile = Userprofile.objects.create(user=user, is_employer=True)
                 userprofile.save()
             else:
-                userprofile = Userprofile.objects.create(user)
+                userprofile = Userprofile.objects.create(user=user)
                 userprofile.save()
             
             login(request, user)
