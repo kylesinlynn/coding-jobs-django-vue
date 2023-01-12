@@ -6,8 +6,10 @@
     {% if userprofile.is_employer %}
         <h2 class='subtitle'>Employer</h2>
 
-        {% for job in jobs %}
-            <p class='subtitle'>{{ job.title }}</p>
+        {% for job in request.user.jobs.all %}
+            <div class='job'>
+                <a href='{% url 'view_dashboard_job' job.id %}'>{{ job.title }}</a>
+            </div>
         {% empty %}
             <p>You don't have any jobs...</p>
         {% endfor %}
