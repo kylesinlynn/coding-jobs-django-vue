@@ -36,7 +36,12 @@ This project was inspired by [Tutorial Series on Youtube](https://youtube.com/pl
     pip install -r requirements.txt
   ```
 
-4. run the `Django` test server and the server will be listening at [127.0.0.1:8000](http://127.0.0.1:8000/) by `default`
+4. make migrations for database
+  ```bash
+    python manage.py makemigrations && python manage.py migrate
+  ```
+
+5. run the `Django` test server and the server will be listening at [127.0.0.1:8000](http://127.0.0.1:8000/) by `default`
   ```bash
     python manage.py runserver
   ```
