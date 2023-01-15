@@ -10,6 +10,9 @@ This project was inspired by [Tutorial Series on Youtube](https://youtube.com/pl
 - [License](#license)
 
 # Setup
+
+![coding-jobs-image-1](imgs/screenshot-1.png)
+
 ## Prerequisites
 - some knowledge in `Python >= 3.11` and `pip`
 
