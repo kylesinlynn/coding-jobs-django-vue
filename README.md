@@ -5,7 +5,7 @@ This project was inspired by [Tutorial Series on Youtube](https://youtube.com/pl
 - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Running](#running)
-- [Trouble Shootings](#trouble-shootings)
+- [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -46,7 +46,7 @@ This project was inspired by [Tutorial Series on Youtube](https://youtube.com/pl
     python manage.py runserver
   ```
 
-# Trouble Shootings
+# Troubleshooting
 Create an issue upon your error that is associated with this project.
 
 # Contributing
